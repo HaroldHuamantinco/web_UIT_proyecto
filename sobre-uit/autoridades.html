@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autoridades | Universidad de Innovaciones Tecnológicas</title>
+    <link rel="stylesheet" href="css/header-styles.css">
+    <link rel="stylesheet" href="css/autoridades-styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
     <header id="header-placeholder"></header>
@@ -11,7 +14,7 @@
     </main>
     <!-- Carga el header -->
     <script>
-        fetch('/header.html')
+        fetch('header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header-placeholder').innerHTML = data;
