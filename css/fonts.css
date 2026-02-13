@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Archivo-Bold";
-    src: url("/assets/fonts/static/Archivo-Bold.ttf") format("truetype");
+    src: url("assets/fonts/static/Archivo-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Archivo-SemiBold";
-    src: url("/assets/fonts/static/Archivo-SemiBold.ttf") format("truetype");
+    src: url("assets/fonts/static/Archivo-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
 
 @font-face {
     font-family: "Archivo-Regular";
-    src: url("/assets/fonts/static/Archivo-Regular.ttf") format("truetype");
+    src: url("assets/fonts/static/Archivo-Regular.ttf") format("truetype");
     font-weight: 400;
 }
 
