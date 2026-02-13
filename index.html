@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIT | Universidad de Innovaciones Tecnológicas</title>
+    <link rel="stylesheet" href="/css/index-styles.css">
+</head>
+<body>
+    <header id="header-placeholder"></header>
+    <main>
+        <!-- SECCIÓN HERO -->
+        <section class="hero-section">
+            <div class="hero-title">
+                <h1>Cada vez son más<br>nuestros profesionales con éxito</h1>
+                <a href="/contacto/contacto.html" class="btn-format">Quiero un Asesor</a>
+            </div>
+        </section>
+        <!-- SUBTÍTULO DIVISOR-->
+        <div class="subtitulos-container">
+            <h3>Escoge tu futuro</h3>
+            <img src="/assets/icons/large_arrow_rigth.svg" alt="Flecha decorativa" class="flecha-decorativa">
+        </div>
+        <!-- SECCIÓN DE CARRERAS -->
+        <section class="carreras-section">
+        <!-- CARDS DE CARRERAS-->
+            <input type="radio" name="carrera" id="carrera-sistemas" class="carreras-radio" checked>
+            <label for="carrera-sistemas" class="carrera-card">
+                <img src="/assets/icons/ing-sistemas.svg" alt="Ingenieria de Sistemas" class="carrera-icon">
+                <h4 class="carreras-names">Ingeniería de Sistemas</h4>
+                <p class="carreras-descriptions">Desarrolla habilidades para diseñar, construir y mantener software de alta calidad.</p>
+            </label>
+            <input type="radio" name="carrera" id="carrera-software" class="carreras-radio">
+            <label for="carrera-software" class="carrera-card">
+                <img src="/assets/icons/ing-sistemas.svg" alt="Ingenieria de Software" class="carrera-icon">
+                <h4 class="carreras-names">Ingeniería de Software</h4>
+                <p class="carreras-descriptions">Desarrolla habilidades para diseñar, construir y mantener software de alta calidad.</p>
+            </label>
+            <input type="radio" name="carrera" id="carrera-datos" class="carreras-radio">
+            <label for="carrera-datos" class="carrera-card">
+                <img src="/assets/icons/ing-sistemas.svg" alt="Ingenieria de Datos" class="carrera-icon">
+                <h4 class="carreras-names">Ingeniería de Datos</h4>
+                <p class="carreras-descriptions">Desarrolla habilidades para diseñar, construir y mantener software de alta calidad.</p>
+            </label>
+            <input type="radio" name="carrera" id="carrera-ciberseguridad" class="carreras-radio">
+            <label for="carrera-ciberseguridad" class="carrera-card">
+                <img src="/assets/icons/ing-sistemas.svg" alt="Ciberseguridad" class="carrera-icon">
+                <h4 class="carreras-names">Ingeniería en Ciberseguridad</h4>
+                <p class="carreras-descriptions">Desarrolla habilidades para diseñar, construir y mantener software de alta calidad.</p>
+            </label>
+            <input type="radio" name="carrera" id="carrera-redes" class="carreras-radio">
+            <label for="carrera-redes" class="carrera-card">
+                <img src="/assets/icons/ing-sistemas.svg" alt="Redes y Telecomunicaciones" class="carrera-icon">
+                <h4 class="carreras-names">Redes y Telecomunicaciones</h4>
+                <p class="carreras-descriptions">Desarrolla habilidades para diseñar, construir y mantener software de alta calidad.</p>
+            </label>
+        </section>
+        <!-- SECCIÓN DE FORMULARIO -->
+        <section class="form-section">
+            <article class="form-section-container">
+                <div class="form-section-left">
+                    <h3 class="titulo-inicial">Cumple tus sueños profesionales</h3>
+                    <h2 class="titulo-principal">Conoce más acerca de tu carrera</h2>
+                    <div class="CTA-container">
+                        <h3 class="titulo-CTA">Deja tus datos en el formulario</h3>
+                        <img src="/assets/icons/large_arrow_rigth.svg" alt="Flecha decorativa" class="flecha-decorativa">
+                    </div>
+                </div>
+                <div class="form-section-rigth">
+                    <form class="form">
+                        <!--SELECTOR DE MODALIDAD-->
+                        <div class="modalidad-selector">
+                            <input type="radio" name="modalidad" id="presencial" class="input-modalidad">
+                            <label for="presencial" class="label-modalidad">Presencial</label>
+                            <input type="radio" name="modalidad" id="semipresencial" class="input-modalidad">
+                            <label for="semipresencial" class="label-modalidad">Semi-Presencial</label>
+                            <input type="radio" name="modalidad" id="virtual" class="input-modalidad">
+                            <label for="virtual" class="label-modalidad">Virtual</label>
+                        </div>
+                        <!--INPUTS DEL FORMULARIO-->
+                        <div class="form-inputs">
+                            <input type="text" name="nombre" value="Nombres" id="nombre" class="input-date">
+                            <input type="text" name="nombre" value="Celular" id="nombre" class="input-date">
+                            <input type="text" name="nombre" value="Apellidos" id="nombre" class="input-date">
+                            <input type="text" name="nombre" value="DNI" id="nombre" class="input-date">
+                            <input type="mail" name="nombre" value="Correo Electrónico" id="nombre" class="input-mail">
+                        </div>
+                        <!--CHECKBOX DE POLÍTICAS-->
+                        <div class="politicas-container">
+                            <input type="checkbox" id="politicas" class="checkbox-politicas">
+                            <label for="politicas" class="label-politicas">
+                                Declaro expresamente haber leído y aceptado las <a href="/politicas/politicas.html" class="link-politicas">Políticas de Privacidad</a>.
+                            </label>
+                        </div>
+                        <!--BOTÓN DE ENVÍO-->
+                        <div class="button-enviar-mis-datos">
+                        <button type="submit" class="btn-format-button">Enviar mis Datos</button>
+                        </div>
+                    </form>
+                </div>
+            </article>    
+        </section>
+        <section>
+        </section>  
+        <div class="subtitulos-container">
+            <h3>Tú eliges como</h3>
+            <img src="/assets/icons/large_arrow_rigth.svg" alt="Flecha decorativa" class="flecha-decorativa">
+        </div>
+    </main>
+    <!-- Carga el header -->
+    <script>
+        fetch('/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

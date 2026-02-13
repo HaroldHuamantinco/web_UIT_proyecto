@@ -1,0 +1,120 @@
+/* ===== Configuración global ===== */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 100px; /* Para separar del header */
+    font-family: 'Archivo-Regular';
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 0.85;
+    font-family: 'Archivo-Bold';
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 0.85;
+    font-family: 'Archivo-Bold';
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 0.95;
+    font-family: 'Archivo-SemiBold';
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Archivo-Regular';
+}
+
+p {
+    font-size: 14px;
+    line-height: 0.95;
+    font-family: 'Archivo-Regular';
+}
+
+.btn-format {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    min-width: 250px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.btn-format:hover {
+    background-color: #453dde;
+    color: #fff;
+}
+
+.btn-format-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    min-width: 250px;
+    padding: 8px 35px;
+    border-radius: 50px;
+}
+
+.btn-format-button:hover {
+    background-color: #453dde;
+    color: #fff;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+}
+
+.header-politicas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 25px;
+    text-align: center;
+}
+
+/* Pie de página */
+.footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Texto resaltado (para editar) */
+.highlight {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Diseño responsivo para móviles */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+}
